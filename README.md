@@ -199,14 +199,6 @@ npm run test:watch
   - Falta instalar Pods o el Podfile es inconsistente.
   - `rm -rf ios/Pods ios/Podfile.lock && npx pod-install`.
 
-- **Código 65 en iOS**
-
-  - Abre con Xcode y compila para ver el error exacto (signing, ruta del target, etc.).
-
-- **Node 22**
-
-  - Usa **Node 18** para RN 0.75.x (evita problemas con scripts de Pods).
-
 ---
 
 ## 🧱 Decisiones técnicas
